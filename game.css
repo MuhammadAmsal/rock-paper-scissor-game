@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.choice:hover{
+cursor: pointer;
+}
+.choice{
+    border-radius: 10%;
+    object-fit: cover;
+}
+.choice:hover{
+    opacity: 0.5;
+    background-color: black;
+}
+.score-board{
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+.msg-container{
+display: flex;
+justify-content: center;
+font-size: 30px;
+margin-top: 5rem;
+}
+.msg{
+    padding: 2rem;
+border-radius: 30%                                                                                                   ;
+    background-color: black;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+    padding: 2rem;
+    border-radius: 30%  
+}
+.blue{
+    background-color: rgb(104, 104, 237);
+    color: white;
+    padding: 2rem;
+    border-radius: 30%  
+}
+.red{
+    padding: 2rem;
+    border-radius: 30%  ;
+    background-color: red;
+    color: white;
+}
